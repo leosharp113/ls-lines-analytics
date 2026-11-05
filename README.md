@@ -37,4 +37,83 @@ I do not claim independent authorship of every component or professional softwar
 
 ### 1. Research Tracking Workflow
 
-I identified that users needed to distinguish between information they were simply viewing and research they intentionally wanted to save
+I identified that users needed to distinguish between information they were simply viewing and research they intentionally wanted to save and evaluate later.
+
+I defined a review-and-confirm workflow so that saved research represents an intentional user action and contains the information required for later outcome tracking.
+
+### 2. Data Transparency
+
+An empty result could be caused by several different conditions, including:
+- missing source data
+- stale information
+- collection limits
+- restrictive filters
+
+I prioritized clearer system messages and fallback exploration so users can better understand why information is unavailable.
+
+### 3. Analytical Requirements
+
+Historical averages can become misleading when a player's current role or playing time has changed.
+
+I refined requirements to incorporate:
+- current-season evidence
+- recent playing-time context
+- historical comparison windows
+- reported availability information
+
+These features provide additional context but should not be interpreted as validated causal predictions.
+
+### 4. User Experience
+
+Through hands-on testing, screenshots, and comparison with other analytics products, I identified areas where navigation and information density could be improved.
+
+I prioritized:
+- clearer visual hierarchy
+- integrated player and game research
+- easier return navigation
+- more transparent data-coverage indicators
+
+## Technical Exposure
+
+The project has given me hands-on exposure to:
+
+- Python
+- SQL
+- Streamlit
+- pandas
+- NumPy
+- SQLite
+- REST APIs
+- Git / GitHub
+- Docker
+- Render deployment
+- scikit-learn
+
+## Data & Reliability
+
+The application includes workflows for:
+- data reconciliation
+- duplicate checks
+- player and team matching
+- missing-data handling
+- local caching
+- data freshness indicators
+- request and collection controls
+- saved research records
+- outcome tracking
+- deployment monitoring
+
+## Project Status
+
+LS Lines is an analytical prototype under active development.
+
+It should not be interpreted as:
+- a validated predictive system
+- a production-grade commercial service
+- evidence of advanced proficiency in every technology used
+
+The project is primarily intended to demonstrate my experience with business requirements, analytics, data validation, product iteration, and technology-enabled problem solving.
+
+## Screenshots
+
+Screenshots of selected analytics, exploration, and workflow features will be added here.
